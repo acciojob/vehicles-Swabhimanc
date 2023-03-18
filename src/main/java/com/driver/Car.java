@@ -43,4 +43,28 @@ public class Car extends Vehicle {
     public int getCurrentGear() {
         return currentGear;
     }
+    public int getDoors() {
+        return doors;
+    }
+
+    public int getGears() {
+        return gears;
+    }
+
+    public int getWheels() {
+        return wheels;
+    }
+
+    public boolean isManual() {
+        return isManual;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public int getSeats() {
+        return seats;
+    }
+
 }
